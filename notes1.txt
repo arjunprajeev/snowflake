@@ -1,0 +1,21 @@
+Enterprise edition
+    has more features, 90 days time travel, multicluster facility
+
+Advantages of snowflake over mysql
+    cloud based
+    schema on write : 1st create a  table with the structure, then only load data
+
+
+There will be a database inside that there is schema --> inside that table and everything is present.
+pipe is used to connect to s3
+
+
+Architecture
+--------------
+3 layers:
+            cloud service layer   - performs monitoring             - brain of snowflake
+            compute(virtual warehouse) layer  - performs execution  - engine of snowflake
+            storage layer      -foundation
+these layers wrk independently can be scaled independently according to the needs
+
+cloud native : connecting multiple clouds
